@@ -1,23 +1,24 @@
 {
-    "name": "worldchina/lastcomposer",
-    "description": "In ORDER TO STUDY COMPOSER",
+    "name": "sky/repeat",
+    "description": "this is test",
+    "type": "library",
     "license": "MIT",
-     "authors": [
+    "authors": [
         {
-            "name": "worldchina",
-            "email": "1240048988@qq.com"
+            "name": "sky",
+            "email": "97889@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-    "php":">=5.3.0"
-    },
+    "require": {},
     "autoload": {
-        "psr-4": {
-            "Ford\\Escape\\":"src/Ford/Escape",
-            "Ford\\Fusion\\":"src/Ford/Fusion",
-            "Ford\\Focus\\":"src/Ford/Focus",
-            "Ford\\Fiesta\\":"src/Ford/Fiesta"
-        }
+        "psr-4" : {
+            "Sky\\Demo\\"  : "src"
+        },
+        "files" : [
+            "src/helper.php"
+        ],
+        "classmap"  : [
+            "src/Common"
+        ]
     }
 }
